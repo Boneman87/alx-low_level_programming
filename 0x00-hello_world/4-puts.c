@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main is the entry point
  * success is achieved when main returns 0
 */
