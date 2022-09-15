@@ -2,7 +2,9 @@
 /**
  * _islower - functions that checks if character is a lowercase letter
  *
- * Return - 1 if character c is lowercase or 0 if otherwise
+ * @c:the character that will be determined if it is lowercase or not
+ * 
+ * Return: 1 if character c is lowercase or 0 if otherwise
  */
 int _islower(int c)
 {
@@ -10,7 +12,6 @@ int _islower(int c)
 
 	x = 97;
 	y = 0;
-	
 	while (x < 122)
 	{
 		x++;
@@ -20,7 +21,6 @@ int _islower(int c)
 			break;
 		}
 	}
-	
 	if (y == 0)
 		return (0);
 	else
