@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -abs - prints the absolute value of a number
+ * _abs - prints the absolute value of a number
  *  n: the number to be evaluated
  *  Return: absolute value of number
  */
