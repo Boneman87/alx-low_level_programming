@@ -7,6 +7,7 @@
  */
 int _isalpha(int c);
 
+(
 {
 	int x, y, z = 0;
 
