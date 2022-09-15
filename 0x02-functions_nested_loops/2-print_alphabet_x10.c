@@ -1,8 +1,8 @@
-#include "main.h"
+include "main.h"
 /**
- * print_alphabet - Printing small letters
+ * print_alphabet_x10 - Printing small letters
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int i = 0, j;
 
