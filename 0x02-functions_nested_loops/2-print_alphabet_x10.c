@@ -1,19 +1,20 @@
 include "main.h"
 /**
- * print_alphabet_x10 - Printing small letters
+ * print_alphabet_x10 - prints lowercase english language letters ten times
+ *
+ * Return - void
  */
 void print_alphabet_x10(void)
 {
-	int i = 0, j;
+	int i, j;
 
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
-		_putchar(10);
-		i++;
 
 		for (j = 97; j < 123; j++)
 		{
 			_putchar(j);
 		}
+		_putchar(10);
 	}
 }
