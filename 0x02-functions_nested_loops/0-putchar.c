@@ -12,7 +12,7 @@ int main(void)
 	i = 0;
 	while (i < 9)
 	{
-		str1[i];
+		str1[] = str1[i];
 		i++;
 		_putchar(i);
 	}
