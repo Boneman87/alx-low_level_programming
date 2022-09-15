@@ -9,11 +9,8 @@ int main(void)
 	char str1[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
 	int i;
 
-	i = 0;
-	while (i < 9)
+	for (i = 0; str1[i]; i++)
 	{
-		str1[] = str1[i];
-		i++;
 		_putchar(i);
 	}
 	return (0);
