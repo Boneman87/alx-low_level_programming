@@ -20,16 +20,16 @@ int _isalpha(int c)
 		}
 	}
 
-	y = 65
-		while (y < 91)
+	y = 65;
+	while (y < 91)
+	{
+		y++;
+		if (c == y)
 		{
-			y++;
-			if (c == y)
-			{
-				z++;
-				break;
-			}
+			z++;
+			break;
 		}
+	}
 	if (z == 0)
 		return (0);
 	else
