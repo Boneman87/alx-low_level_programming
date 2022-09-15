@@ -3,7 +3,6 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- *
  */
 int main(void)
 {
@@ -11,7 +10,7 @@ int main(void)
 
 	while (i < 10)
 	{
-		_putchar(10)[;
+		_putchar(10);
 		i++;
 		print_alphabet();
 	}
