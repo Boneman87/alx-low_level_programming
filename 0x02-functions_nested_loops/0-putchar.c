@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char str1[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
+	char str1[] = {' ','_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'};
 	int i;
 
 	for (i = 0; str1[i]; i++)
