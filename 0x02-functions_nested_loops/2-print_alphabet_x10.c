@@ -4,10 +4,16 @@
  */
 void print_alphabet(void)
 {
-	int i;
+	int i = 0, j;
 
-		for (i = 97; i < 123; i++)
+	while (i < 10)
+	{
+		_putchar(10);
+		i++;
+
+		for (j = 97; j < 123; j++)
 		{
-			_putchar(i);
+			_putchar(j);
 		}
+	}
 }
