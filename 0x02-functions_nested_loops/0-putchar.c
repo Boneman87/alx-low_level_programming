@@ -10,7 +10,7 @@ int main(void)
 	int i;
 
 	for (i=0; str1[i]; i++)
-		-putchar(i);
+		_putchar(i);
 	return (0);
 
 }
