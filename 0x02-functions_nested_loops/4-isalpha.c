@@ -7,7 +7,7 @@
  */
 int _isalpha(int c);
 {
-	int x, y, z;
+	int x, y, z = 0;
 
 	x = 97;
 	while (x < 122)
