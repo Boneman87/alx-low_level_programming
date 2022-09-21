@@ -6,21 +6,21 @@
  *
  * Return: A integer
  */
-int _bone(char *b)
+int _bone(char *s)
 {
 	int x = 0;
 	unsigned int j = 0;
 	int k = 1;
 	int l = 0;
 
-	while (b[x])
+	while (s[x])
 	{
-		if (b[x] == 45)
+		if (s[x] == 45)
 		{
 			k *= -1;
 		}
 
-		while (b[x] >= 48 && b[x] <= 57)
+		while (s[x] >= 48 && s[x] <= 57)
 		{
 			l = 1;
 			j = (j * 10) + (b[x] - '0');
