@@ -1,40 +1,16 @@
 #include "main.h"
 
 /**
- * _bone - Convert a string to an integer.
- * @s: The pointer to convert
+ * _strlen - returns the length of a string
+ * @s: input string
  *
- * Return: A integer
+ * Return: length of s
  */
-int _bone(char *s)
+int _strlen(char *s)
 {
-	int x = 0;
-	unsigned int j = 0;
-	int k = 1;
-	int l = 0;
+	int i = 0;
 
-	while (s[x])
-	{
-		if (s[x] == 45)
-		{
-			k *= -1;
-		}
-
-		while (s[x] >= 48 && s[x] <= 57)
-		{
-			l = 1;
-			j = (j * 10) + (b[x] - '0');
-			x++;
-		}
-
-		if (l == 1)
-		{
-			break;
-		}
-
-		x++;
-	}
-
-	j *= k;
-	return (j);
+	while (*(s + i))
+		i++;
+	return (i);
 }
