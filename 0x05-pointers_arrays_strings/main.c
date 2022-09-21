@@ -1,17 +1,19 @@
 #include <stdio.h>
+
+void reset_to_98(int *);
+
 /**
- * main - using sizeof to dynamically determine the size of types char, int and float
+ * main - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
 int main(void)
 {
 	int n;
-	printf("Size of type 'char' on my computer: %lu bytes\n", sizeof(char));
-	printf("Sizeof type 'int' on my computer: %lu bytes\n", sizeof(int));
-	printf("Size of type 'float' on my computer: %lu bytes\n", sizeof(float));
-	printf("Size of type 'double float' on my computer %lu bytes\n", sizeof(double));
-	printf("Size of type 'long int' on my computer %lu bytes\n", sizeof(long));
-	printf("Size of type of my variable n on my computer: %lu bytes\n", sizeof(n));
+
+	n = 402;
+	printf("%d\n", n);
+	reset_to_98(&n);
+	printf("%d\n", n);
 	return (0);
 }

@@ -10,19 +10,3 @@ void reset_to_98(int *n)
 {
 	*n = 98;
 }
-
-/**
- * main - updates value for reset function
- *
- * Return: Always o
- */
-int main(void)
-{
-	int m;
-	int *Mp;
-
-	Mp = &m;
-	m = 65;
-	reset_to_98(Mp);
-	return (0);
-}
